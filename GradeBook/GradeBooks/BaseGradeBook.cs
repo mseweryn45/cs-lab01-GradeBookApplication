@@ -24,11 +24,6 @@ namespace GradeBook.GradeBooks
             IsWeighted = isWeighted;
         }
 
-        /// //////////////////////////////////
-        protected BaseGradeBook(string name)
-        {
-            Name = name;
-        }
 
         public void AddStudent(Student student)
         {
